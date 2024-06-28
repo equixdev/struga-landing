@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="h-full w-full">
+    <section
+      id="hero"
+      class="h-[818px] relative text-[#F5E2C3] text-[20px] font-semibold flex flex-col items-center"
+    >
+      <img
+        src="public/hero.png"
+        class="absolute top-0 left-0 z-[-1] h-full object-cover"
+      />
+      <div class="max-w-[1296px] pt-8 pb-16 gap-16 flex flex-col w-full">
+        <header
+          class="uppercase flex items-center justify-between px-[60px] py-[35px] bg-[#BE713C] bg-opacity-20 rounded-[20px] relative"
+        >
+          <div class="flex gap-6">
+            <a>О нас</a>
+            <img src="public/separator.svg" />
+            <a>Каталог</a>
+            <img src="public/separator.svg" />
+            <a>Отзывы</a>
+          </div>
+          <img
+            src="public/logo.png"
+            class="w-[220px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          />
+          <div class="flex gap-6">
+            <a>Оплата и доставка</a>
+            <img src="public/separator.svg" />
+            <a>Контакты</a>
+          </div>
+        </header>
+        <div class="flex items-center w-full">
+          <div class="flex-col w-full max-w-[900px] shrink-0">
+            <h1 class="text-[#BE713C] text-[60px] font-light leading-[115%]">
+              Изделия из дерева на заказ с доставкой по России
+            </h1>
+            <p class="text-[32px] font-semibold mt-[32px] leading-[115%]">
+              Cтиль и уют деревянных аксессуаров<br/> в ваш дом, ресторан или кафе
+            </p>
+            <button
+              class="uppercase border border-[#F5E2C3] rounded-[20px] px-[60px] h-[70px] mt-[48px]"
+            >
+              Перейти в каталог
+            </button>
+          </div>
+          <div class="flex items-center justify-center w-full">
+            <img src="public/play.png" class="h-[128px] w-[128px]" />
+          </div>
+        </div>
+        <ul class="flex w-full text-[20px] uppercase">
+          <li class="w-full flex flex-col items-center">
+            <b class="text-[60px] font-bold">14</b>
+            лет опыта
+          </li>
+          <li class="w-full flex flex-col items-center">
+            <b class="text-[60px] font-bold">12 000</b>
+            изделий изготовлено
+          </li>
+          <li class="w-full flex flex-col items-center">
+            <b class="text-[60px] font-bold">700+</b>
+            довольных клиентов
+          </li>
+          <li class="w-full flex flex-col items-center">
+            <b class="text-[60px] font-bold">4.95</b>
+            средний рейтинг заказов
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="catalog" class="flex flex-col items-center">
+      <div class="max-w-[1296px] py-[75px] gap-12 flex flex-col w-full">
+        <div class="flex flex-col gap-6">
+          <h2 class="text-[50px]">Каталог</h2>
+          <p class="text-[20px]">
+            Мы любим дерево, для нас важны детали, ценим профессиональный
+            подход. Наши изделия изготовлены из отборной древесины и обработаны
+            натуральными материалами. Мы гарантируем долговечность произведений
+            мастерской.
+          </p>
+        </div>
+        <ul
+          class="grid gap-6 w-full grid-cols-12 grid-rows-9 uppercase text-[#F5E2C3] text-[24px] leading-snug h-[948px]"
+        >
+          <li
+            class="col-[1/7] row-[1/7] rounded-[20px] overflow-hidden relative flex flex-col justify-end p-6"
+          >
+            <img
+              src="public/catalog1.png"
+              class="h-full top-0 left-0 absolute z-[-1]"
+            />
+            <div
+              class="h-1/2 w-full bottom-0 left-0 absolute z-[-1] bg-gradient-to-b from-transparent to-[#171717]"
+            ></div>
+            Мебель
+            <b>и интерьер</b>
+          </li>
+          <li
+            class="col-[7/10] row-[1/4] rounded-[20px] overflow-hidden relative flex flex-col justify-end p-6"
+          >
+            <img
+              src="public/catalog2.png"
+              class="h-full top-0 left-0 absolute z-[-1]"
+            />
+            <div
+              class="h-1/2 w-full bottom-0 left-0 absolute z-[-1] bg-gradient-to-b from-transparent to-[#171717]"
+            ></div>
+            Доски
+            <b>сервировочные</b>
+          </li>
+          <li
+            class="w-full h-full col-[10/13] row-[1/4] rounded-[20px] overflow-hidden relative flex flex-col justify-end p-6"
+          >
+            <img
+              src="public/catalog3.png"
+              class="h-full top-0 left-0 absolute z-[-1]"
+            />
+            <div
+              class="h-1/2 w-full bottom-0 left-0 absolute z-[-1] bg-gradient-to-b from-transparent to-[#171717]"
+            ></div>
+            Доски
+            <b>Разделочные</b>
+          </li>
+          <li
+            class="col-[7/10] row-[4/7] rounded-[20px] overflow-hidden relative flex flex-col justify-end p-6"
+          >
+            <img
+              src="public/catalog4.png"
+              class="h-full top-0 left-0 absolute z-[-1]"
+            />
+            <div
+              class="h-1/2 w-full bottom-0 left-0 absolute z-[-1] bg-gradient-to-b from-transparent to-[#171717]"
+            ></div>
+            Менажницы
+            <b>Орешницы</b>
+          </li>
+          <li
+            class="col-[10/13] row-[4/7] rounded-[20px] overflow-hidden relative flex flex-col justify-end p-6"
+          >
+            <img
+              src="public/catalog5.png"
+              class="h-full top-0 left-0 absolute z-[-1]"
+            />
+            <div
+              class="h-1/2 w-full bottom-0 left-0 absolute z-[-1] bg-gradient-to-b from-transparent to-[#171717]"
+            ></div>
+            Подставки
+            <b>Для часов</b>
+          </li>
+          <li
+            class="col-[1/5] row-[7/10] rounded-[20px] overflow-hidden relative flex flex-col justify-end p-6"
+          >
+            <img
+              src="public/catalog6.png"
+              class="h-full top-0 left-0 absolute z-[-1]"
+            />
+            <div
+              class="h-1/2 w-full bottom-0 left-0 absolute z-[-1] bg-gradient-to-b from-transparent to-[#171717]"
+            ></div>
+            Тарелки
+            <b>и Блюда</b>
+          </li>
+          <li
+            class="col-[5/13] row-[7/10] rounded-[20px] overflow-hidden relative flex flex-col justify-end p-6"
+          >
+            <img
+              src="public/catalog7.png"
+              class="h-full top-0 left-0 absolute z-[-1]"
+            />
+            <div
+              class="h-1/2 w-full bottom-0 left-0 absolute z-[-1] bg-gradient-to-b from-transparent to-[#171717]"
+            ></div>
+            индивидуальные
+            <b>изделия для ресторанов</b>
+          </li>
+        </ul>
+        <button
+          class="uppercase border border-[#171717] rounded-[20px] px-[60px] h-[70px] self-center"
+        >
+          Смотреть весь каталог
+        </button>
+      </div>
+    </section>
+    <div class="bg-[#212121] text-white py-[75px] flex flex-col items-center">
+      <section
+        id="about"
+        class="max-w-[1296px] py-[75px] gap-12 flex flex-col w-full"
+      >
+        <h2 class="text-[50px] text-[#F5E2C3]">О нашей мастерской</h2>
+        <div class="flex gap-9">
+          <div class="flex flex-col gap-8 w-[856px] shrink-0">
+            <p>
+              Struga — творческая столярная мастерская, ручное производство
+              деревянной посуды и кухонной утвари, предметов декора, элементов
+              интерьера и мебели, подарков, сувениров. Для дома и бизнеса. Наши
+              изделия изготовлены из отборной, хорошо высушенной древесины
+              твердых пород, тщательно отшлифованы и пропитаны натуральными
+              маслами. Мы любим дерево, для нас важны детали, ценим
+              профессиональный подход, не экономим на материалах и инструментах,
+              поэтому гарантируем долговечность произведений мастерской.
+            </p>
+            <p>
+              История мастерской Struga началась в 2010 году с хобби —
+              изготовление оригинальных фоторамок из состаренных сосновых
+              дощечек на подарки для друзей. Начиная с 2015 столярная мастерская
+              уже становится основным занятием, приносящим заработок. В процессе
+              работы и творчества осваивались новые технологии, приемы и
+              инструменты.   Пробовали изготавливать разделочные доски, тарелки,
+              шкатулки, светильники. Со временем мастерская Struga обзавелась
+              своим помещением и серьезным арсеналом станков и инструментов,
+              преобразовалась во вполне удачный коммерческий проект с
+              интересными работами. 
+            </p>
+          </div>
+          <div class="flex flex-col gap-8 relative">
+            <img src="public/about1.png" class="w-[306px]" />
+            <img
+              src="public/about2.png"
+              class="w-[306px] absolute bottom-[-69px] left-[69px]"
+            />
+          </div>
+        </div>
+      </section>
+      <section
+        id="clients"
+        class="max-w-[1296px] py-[75px] gap-12 flex flex-col w-full"
+      >
+        <h2 class="text-[50px] text-[#F5E2C3]">Наши клиенты</h2>
+        <div
+          class="w-full flex justify-between h-[140px] relative items-center"
+        >
+          <img
+            src="public/chevron-left.svg"
+            class="h-12 w-12 absolute top-1/2 -translate-y-1/2 left-[-80px]"
+          />
+          <img src="public/client1.png" class="h-[100px]" />
+          <img src="public/client2.png" class="h-[100px]" />
+          <img src="public/client3.png" class="h-full" />
+          <img src="public/client4.png" class="h-[100px]" />
+          <img src="public/client5.png" class="h-[80px]" />
+          <img
+            src="public/chevron-right.svg"
+            class="h-12 w-12 absolute top-1/2 -translate-y-1/2 right-[-80px]"
+          />
+        </div>
+      </section>
+      <section
+        id="clients"
+        class="max-w-[1296px] py-[75px] gap-12 flex flex-col w-full text-[#F5E2C3]"
+      >
+        <h2 class="text-[50px]">Отзывы</h2>
+        <ul class="w-full flex gap-6 relative items-stretch">
+          <img
+            src="public/chevron-left.svg"
+            class="h-12 w-12 absolute top-1/2 -translate-y-1/2 left-[-80px]"
+          />
+          <li
+            class="flex flex-col p-6 gap-4 rounded-[20px] border border-[#F5E2C3] w-full"
+          >
+            <img src="public/star.svg" class="w-[132px]" />
+            <p>
+              Будем лаконичны — мы довольны совместными результатами с компанией
+              Struga.pro и собираемся дальше продолжить нашу продуктивную
+              работу.
+            </p>
+            <div class="flex gap-6 mt-auto">
+              <img src="public/review.png" class="h-12 w-12" />
+              <p class="flex flex-col">
+                <b class="text-[#BE713C]">Иванов Иван</b>
+                Директор Music Hall
+              </p>
+            </div>
+          </li>
+          <li
+            class="flex flex-col p-6 gap-4 rounded-[20px] border border-[#F5E2C3] w-full"
+          >
+            <img src="public/star.svg" class="w-[132px]" />
+            <p>
+              Будем лаконичны — мы довольны совместными результатами с компанией
+              Struga.pro
+            </p>
+            <div class="flex gap-6 mt-auto">
+              <img src="public/review.png" class="h-12 w-12" />
+              <p class="flex flex-col">
+                <b class="text-[#BE713C]">Алексей Ловков</b>
+                Владелец “Сыровар Ловков”
+              </p>
+            </div>
+          </li>
+          <li
+            class="flex flex-col p-6 gap-4 rounded-[20px] border border-[#F5E2C3] w-full"
+          >
+            <img src="public/star.svg" class="w-[132px]" />
+            <p>
+              Будем лаконичны — мы довольны совместными результатами с компанией
+              Struga.pro и собираемся дальше продолжить нашу продуктивную
+              работу.
+            </p>
+            <div class="flex gap-6 mt-auto">
+              <img src="public/review.png" class="h-12 w-12" />
+              <p class="flex flex-col">
+                <b class="text-[#BE713C]">Сергей Сергеев</b>
+                Владелец “ELIO PIZZA”
+              </p>
+            </div>
+          </li>
+          <img
+            src="public/chevron-right.svg"
+            class="h-12 w-12 absolute top-1/2 -translate-y-1/2 right-[-80px]"
+          />
+        </ul>
+        <button
+          class="uppercase border border-[#F5E2C3] rounded-[20px] px-[60px] h-[70px] self-center"
+        >
+          Оставить отзыв
+        </button>
+      </section>
+    </div>
+  </body>
+</html>
